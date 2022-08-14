@@ -1,0 +1,88 @@
+.Table-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.Table-header {
+  display: flex;
+  margin-bottom: 8px;
+  padding: 8px 0;
+  background-color: #fafafa;
+}
+
+.Table-row {
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  padding: 8px 0;
+  height: 56px;
+  align-items: center;
+}
+
+.Header-item-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding: 4px 16px;
+  overflow-wrap: anywhere;
+  text-align: left;
+  border-right: 1px solid #eeeeee;
+  line-height: 2;
+}
+
+.Sort-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Item-column {
+  display: flex;
+  width: 20%;
+  padding: 4px 16px;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+
+.Header-item-column:last-child {
+  border: none;
+}
+
+.Pagination-wrapper {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 24px;
+}
+
+.Pagination-button {
+  display: flex;
+  border: 2px solid black;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.Pagination-button__selected {
+  display: flex;
+  border: 2px solid #00bfff;
+  background-color: white;
+  color: #00bfff;
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.Pagination-button:disabled {
+  border: 2px solid #b1b1b1;
+}
+
+.Pagination-button:disabled {
+  background-color: #eeeeee;
+}
